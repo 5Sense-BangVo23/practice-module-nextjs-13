@@ -1,5 +1,7 @@
 'use client';
 import { useRouter } from 'next/navigation'
+import { Button } from 'react-bootstrap';
+
 const ContactPage = () => {
     const router = useRouter();
 
@@ -11,6 +13,7 @@ const ContactPage = () => {
         <>
             <h1>Contact Page</h1>
             <div>
+                <Button variant='success'>Contact to me</Button>
                 <button onClick={ () => handleBtn() }> Back Home</button> 
             </div>
         </>
