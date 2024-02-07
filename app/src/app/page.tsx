@@ -65,6 +65,14 @@ export default function Home() {
   //   fetchData();
   // }, []);
   
+
+  if(!data){
+    return (
+      <div>
+         <p>Loading ...</p>
+      </div>
+    );
+  }
   return (
     <div >
       <div>{data?.length}</div>
@@ -85,7 +93,7 @@ export default function Home() {
           <Link href={"/gallary"}>Gallary</Link>
         </li>
       </ul>
-      <AppTable />
+      <AppTable blogs={data} />
     </div>
   );
 }

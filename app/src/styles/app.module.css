@@ -7,3 +7,20 @@
     color: green;
     border: 1px solid green;
 }
+
+
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+.sticky-column
+   {
+    position: sticky;
+    left: 0;
+    background-color: #fff; 
+    width: 100px;
+    z-index: 100;
+  }
+  
+  
+  

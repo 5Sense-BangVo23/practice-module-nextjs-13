@@ -1,0 +1,19 @@
+
+  .sticky-column-left {
+    position: sticky;
+    left: 0;
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    z-index: 1;
+  }
+
+  .sticky-column-right {
+    position: sticky;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    width: 100px;
+    z-index: 1;
+  }
+  
+  
+  
